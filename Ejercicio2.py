@@ -7,7 +7,6 @@
 
 name=str(input("Enter your name: "))
 age=int(input("Enter your age: "))
-#subjects_notes=float(input("Enter your notes: "))
 
 list=[]
 
