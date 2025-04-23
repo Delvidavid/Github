@@ -16,4 +16,4 @@ if num > 1:
     else:
         print(f"the number {num} not is couins")    
 else:
-    print(f"the number {num} not is couins")            
+    print(f"the number {num} not is ... couins")            
