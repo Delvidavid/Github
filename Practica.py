@@ -78,3 +78,4 @@ if work1 == work1[::1]:
     print("is a palindromo")
 else:
     print("not is a palindromo")    
+
