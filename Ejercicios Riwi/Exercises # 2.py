@@ -1,6 +1,6 @@
 #Hola Mundo personalizado
 #Pide al usuario su nombre y muestra un saludo personalizado en pantalla.
-import re
+#import re
 def hello():
     
    while True:
@@ -182,4 +182,134 @@ def bigger():
 #bigger()
 
 #Calculadora simple
-#Crea una pequeña calculadora que permita al usuario ingresar dos números y una operación (+, -, *, /) y luego muestre el resultado.      
+#Crea una pequeña calculadora que permita al usuario ingresar dos números y una operación (+, -, *, /) y luego muestre el resultado.
+
+def calculator():
+    
+    print("operations math")
+    
+    while True:
+        
+        try:
+        
+            nunmber_1 = input("Enter first number: ")
+            number_2 = input("Enter Second Number: ")
+            Operations = input("Enter operations math: ")
+        
+            if not Operations.isdigit() and not Operations.isalpha():
+                
+                Operations = str(Operations)
+                nunmber_1 = float(nunmber_1)
+                number_2 = float(number_2)
+                
+                if Operations == "+":
+                    
+                    sum = nunmber_1 + number_2
+                    print(f"the sum total is {sum}")
+                
+                elif Operations == "-":
+                    
+                    res = nunmber_1 - number_2
+                    print(f"The remainder is {res}")
+                    
+                elif Operations == "/":
+                    
+                    division = nunmber_1 / number_2
+                    print(f"The division is {division}")
+                
+                elif Operations == "*":
+                    
+                    multiplication = nunmber_1 * number_2
+                    print(f"The multiplication is {multiplication} ")
+                       
+                else: 
+                    
+                    print("Enter a worth valid")  
+            else:
+                
+                print("Enter a worth valid") 
+        
+        except ValueError:
+                  
+                  print("Enter a worth valid")                  
+#calculator()
+
+#Aprobado o reprobado
+#Pide una nota del 0 al 100. Si es 60 o más, muestra “Aprobado”; si es menor, “Reprobado”.
+
+def approved() :
+    
+    while True:
+        
+        try:
+            note = input("Enter a note of 0 to 100: ")
+            
+            if note.isdigit() :
+                
+                note = int(note)
+                
+                if note > 60:
+                    print("Approved")
+                 
+                else:
+                    print("Reproved")
+                break    
+            
+            else:
+                print("Enter a worth valid")
+        
+        except ValueError:
+            
+            print("Enter a worth valid")            
+#approved()     
+
+#Suma de los primeros 10 números  
+#Escribe un programa que use un bucle `for` para sumar los números del 1 al 10 y mostrar el resultado final.
+
+def sum_numbers():
+    result=0 
+    for i in range(1,11):
+            
+            print(i)
+            result += i 
+    print(f"The result is: {result} ")
+#sum_numbers()
+
+#Mostrar caracteres en mayúscula
+#Crea un programa que recorra una palabra carácter por carácter y muestre cada letra en mayúscula en una nueva línea.
+
+def character():
+    list = []
+    
+    word = input("Enter a word: ")
+    
+    for i in word:
+        
+        if  word.isalpha() :
+            
+            i = i.upper()
+            list.append(i)
+        else:
+            
+            print("Error enter a word")
+            break   
+                
+    print(list)
+#character()
+
+#Tablas de multiplicar del 1 al 5  
+#Haz un programa que muestre las tablas de multiplicar del 1 al 5. Cada tabla debe ir del 1 al 10.
+
+def table():
+    table_1 = 0
+    table_2 = 0
+    table_3 = 0
+    table_4 = 0
+    table_5 = 0
+    for i in range(1,11):
+        
+        table_1 = i 
+        print(f"1 X {i} = {table_1}")
+          
+        
+table()
