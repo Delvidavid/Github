@@ -173,7 +173,7 @@ for keys in car:
 
 for values in car:
     
-    print(car[values])
+    print(car[values])'''
     
 # parte 2
 
@@ -199,8 +199,8 @@ while True:
             print("Not exists, enter other country")
             
 
-invest = {v:k for k, v in countrys.items()}
-print(invest)'''
+invest = {keys:values for values, keys in countrys.items()}
+print(invest)
 
 #Parte 3
 

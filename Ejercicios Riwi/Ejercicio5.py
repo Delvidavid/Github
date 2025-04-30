@@ -4,26 +4,13 @@
 #ADICIONAL, SI EL NUMERO ES MULTIPLO DE 3, IMPRIME LA PALABRA "FIZZ"
 #SI EL NUMERO ES MULTIPLO DE 5, IMPRIME LA PALABRA "BUZZ"
 #Y SI ES MULTIPLO DE 15, IMPRIME LA PALABRA "FIZZBUZZ"
-
-
-#num=int(input("ingrese numero: "))
-
-#if num == str:
- #   print("por favor Ingrese un numero")
-
-#else:
-#    num= int()
- 
          
 while True:
     num=(input("ingrese numero: "))
         
-    #if "." in num and not num.isdigit() :
-    #   print("Error")
-    #    continueda
     if num.isdigit() :
         numero = int(num)
-        #print("por favor Ingrese un numero")
+        
         
         if numero % 3 == 0 and numero % 5 == 0:
             print("Fizzbuzz")
