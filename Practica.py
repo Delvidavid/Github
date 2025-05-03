@@ -215,5 +215,4 @@ for student in students:
     
     if students[student] >= 6:
         print(student)
-
-
+       

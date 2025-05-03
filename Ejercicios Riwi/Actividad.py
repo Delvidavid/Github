@@ -39,7 +39,7 @@ Enter a option:
                 print(f"Contact create with success {agenda} ")
                
                 #newContact = input("create other contact S/N: ").lower()
-             
+                
         case "read" | "2" :
             
             read = input("Enter contact to search: ")

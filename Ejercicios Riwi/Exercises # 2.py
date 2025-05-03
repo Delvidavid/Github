@@ -307,9 +307,8 @@ def table():
     table_4 = 0
     table_5 = 0
     for i in range(1,11):
-        
-        table_1 = i 
-        print(f"1 X {i} = {table_1}")
+         
+        print(f"1 X {i} = {1}")
           
         
 table()
