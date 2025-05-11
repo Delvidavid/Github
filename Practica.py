@@ -177,42 +177,48 @@ for values in car:
     
 # parte 2
 
-countrys={
+# countrys={
     
-    "colombia" : "Bogota",
-    "argentina" : "Buenos aires",
-    "Brasil" : "Brasilia",
-    "Ecuador" : "Quito",
-} 
+#     "colombia" : "Bogota",
+#     "argentina" : "Buenos aires",
+#     "Brasil" : "Brasilia",
+#     "Ecuador" : "Quito",
+# } 
 
 
 
-while True:
-    x = input("Enter a country: ")
-    try:
-        if x in countrys:
-            print(countrys[x])
-            break
-        else:
-            print("Not exists, enter other country")
-    except ValueError:
-            print("Not exists, enter other country")
+# while True:
+#     x = input("Enter a country: ")
+#     try:
+#         if x in countrys:
+#             print(countrys[x])
+#             break
+#         else:
+#             print("Not exists, enter other country")
+#     except ValueError:
+#             print("Not exists, enter other country")
             
 
-invest = {keys:values for values, keys in countrys.items()}
-print(invest)
+# invest = {keys:values for values, keys in countrys.items()}
+# print(invest)
 
-#Parte 3
+# #Parte 3
 
-students ={
-    "David" : 6,
-    "Antony" : 5,
-    "Sebas" : 4,
-    "Carlos" : 8,
-} 
+# students ={
+#     "David" : 6,
+#     "Antony" : 5,
+#     "Sebas" : 4,
+#     "Carlos" : 8,
+# } 
 
-for student in students:
+# for student in students:
     
-    if students[student] >= 6:
-        print(student)
+#     if students[student] >= 6:
+#         print(student)
        
+       
+n = 1
+ 
+while n< 100:
+     n*= 2
+     print(n)      
