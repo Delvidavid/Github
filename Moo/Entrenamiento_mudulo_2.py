@@ -17,7 +17,7 @@ a. Preguntar al usuario por una calificación específica.
 b. Verificar si esta calificación está en la lista y contar cuántas veces aparece, utilizando break y continue para controlar el flujo del programa.''' 
 
 #Determinar el estado de aprobación        
-def aprovalStatus():
+def aproval_Status():
     while True:
         try:
             notes = int(input("Enter note of 0 to 100: "))
@@ -46,7 +46,7 @@ def aprovalStatus():
     
             else:
                 print("Enter S or N !")                                       
-#aprovalStatus () 
+
 
 # Calcular el promedio  
 def average():
@@ -89,10 +89,10 @@ def average():
     
         else:
             print("Enter S or N !")
-#average()   
+
 
 #Verificar calificaciones mayores
-def notesGreater():
+def notes_Greater():
     
     while True:
         
@@ -121,8 +121,7 @@ def notesGreater():
                 return
     
             else:
-                print("Enter S or N !")      
-#notesGreater()                             
+                print("Enter S or N !")                              
              
 #Verificar y contar calificaciones             
 def notesSpecific ():
@@ -161,7 +160,7 @@ def notesSpecific ():
     
             else:
                 print("Enter S or N !")           
-#notesSpecific()
+
 
 while True:
     
@@ -178,7 +177,7 @@ Enter a option:
         
         case "1":
             
-            aprovalStatus()
+            aproval_Status()
         
         case "2":
             
@@ -186,7 +185,7 @@ Enter a option:
             
         case "3":
             
-            notesGreater()
+            notes_Greater()
         
         case "4":
             
